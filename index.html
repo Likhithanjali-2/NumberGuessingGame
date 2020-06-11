@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>Number Guessing Game :)</title>
+    </head>
+
+    <body>
+      <div class="initial" id="initial-page">
+          <br><br>
+          <div class="block">
+            <input type="text" name="player-name" placeholder="Player Name"/>
+            <input type="number" placeholder="Number Limit" value="" class="number-limit" />
+            <input type="number" placeholder="Guessing Limit " value="" class="guessing-limit" />
+
+            <button class="btn-start">Start</button>
+          </div>
+      </div>
+
+      <div class="hidden" id="original-game">
+        <div class="wrapper clearfix"><br><br>
+          <div class="player-name" id="player-name">Player 1</div>
+          <input type="text" placeholder=" GUESS " value="" class="user-guess" />
+          <button class="btn-check">check guess</button>
+          <button class="btn-new">New Game</button>
+        </div>
+      </div>
+    <script src="app.js"></script>
+    </body>
+</html>

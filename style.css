@@ -1,0 +1,72 @@
+body {
+      background-image: url(number-wallpaper.jpg);
+      background-size: cover;
+      background-position: center;
+      font-family: Lato;
+      font-weight: 300;
+      position: relative;
+      height: 100vh;
+      color: pink;
+}
+
+
+button {
+    position: absolute;
+    width: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: pink;
+    background: none;
+    //border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover { font-weight: 600; }
+button:hover i { margin-right: 20px; }
+
+.hidden{
+  display:none;
+}
+
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.btn-check{
+  left: 30%;
+}
+
+.player-name {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100px;
+    color: purple;
+    margin-top: 100px;
+    margin-left: 70px;
+    position: relative;
+}
+
+.user-guess {
+  width: auto;
+  height: 30px;
+  margin-left: 70px;
+}
+
+.block {
+  padding :50px;
+}
